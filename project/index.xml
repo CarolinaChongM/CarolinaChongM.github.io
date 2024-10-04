@@ -5,7 +5,7 @@
     <link>https://CarolinaChongM.github.io/project/</link>
       <atom:link href="https://CarolinaChongM.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
       <url>https://CarolinaChongM.github.io/media/icon_hu7729264130191091259.png</url>
       <title>Projects</title>
@@ -13,27 +13,28 @@
     </image>
     
     <item>
-      <title>Pandas</title>
+      <title></title>
       <link>https://CarolinaChongM.github.io/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://CarolinaChongM.github.io/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;flexible-and-powerful-data-analysis--manipulation-library-for-python-providing-labeled-data-structures&#34;&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/h1&gt;</description>
     </item>
     
     <item>
-      <title>PyTorch</title>
+      <title></title>
       <link>https://CarolinaChongM.github.io/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://CarolinaChongM.github.io/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;pytorch-is-a-python-package-that-provides-tensor-computation-like-numpy-with-strong-gpu-acceleration&#34;&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/h1&gt;</description>
     </item>
     
     <item>
-      <title>scikit-learn</title>
+      <title></title>
       <link>https://CarolinaChongM.github.io/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://CarolinaChongM.github.io/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;scikit-learn-is-a-python-module-for-machine-learning-built-on-top-of-scipy-and-is-distributed-under-the-3-clause-bsd-license&#34;&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/h1&gt;</description>
     </item>
     
   </channel>

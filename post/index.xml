@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | Carolina Chong Montenegro</title>
+    <title>Carolina Chong Montenegro</title>
     <link>https://CarolinaChongM.github.io/post/</link>
       <atom:link href="https://CarolinaChongM.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Blog</description>
+    <description>Carolina Chong Montenegro</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://CarolinaChongM.github.io/media/icon_hu7729264130191091259.png</url>
-      <title>Blog</title>
+      <title>Carolina Chong Montenegro</title>
       <link>https://CarolinaChongM.github.io/post/</link>
     </image>
     
@@ -251,7 +251,7 @@
 
 
 
-&lt;div id=&#34;chart-351267489&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-276481395&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -269,7 +269,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-351267489&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-276481395&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

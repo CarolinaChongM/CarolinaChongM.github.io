@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Carolina Chong Montenegro</title>
+    <title>Carolina Chong Montenegro</title>
     <link>https://CarolinaChongM.github.io/event/</link>
       <atom:link href="https://CarolinaChongM.github.io/event/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <description>Carolina Chong Montenegro</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
       <url>https://CarolinaChongM.github.io/media/icon_hu7729264130191091259.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>Carolina Chong Montenegro</title>
       <link>https://CarolinaChongM.github.io/event/</link>
     </image>
     
     <item>
-      <title>Example Talk</title>
+      <title></title>
       <link>https://CarolinaChongM.github.io/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://CarolinaChongM.github.io/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
