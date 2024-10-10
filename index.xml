@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Carolina Chong Montenegro</title>
-    <link>https://CarolinaChongM.github.io/</link>
-      <atom:link href="https://CarolinaChongM.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/</link>
+      <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <description>Carolina Chong Montenegro</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CarolinaChongM.github.io/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:4321/media/icon_hu7729264130191091259.png</url>
       <title>Carolina Chong Montenegro</title>
-      <link>https://CarolinaChongM.github.io/</link>
+      <link>http://localhost:4321/</link>
     </image>
     
     <item>
       <title>Experience</title>
-      <link>https://CarolinaChongM.github.io/experience/</link>
+      <link>http://localhost:4321/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://CarolinaChongM.github.io/experience/</guid>
+      <guid>http://localhost:4321/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://CarolinaChongM.github.io/projects/</link>
+      <link>http://localhost:4321/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://CarolinaChongM.github.io/projects/</guid>
+      <guid>http://localhost:4321/projects/</guid>
       <description></description>
     </item>
     
