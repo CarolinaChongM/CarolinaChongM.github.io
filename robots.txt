@@ -1,3 +1,4 @@
 User-agent: *
+Allow: /
 
-Sitemap: https://CarolinaChongM.github.io/sitemap.xml
+Sitemap: https://carolinachongm.github.io/sitemap.xml
