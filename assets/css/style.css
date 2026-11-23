@@ -447,6 +447,50 @@ i, em { font-style: italic; }
 }
 .pub__authors b { font-weight: 500; color: var(--ink); white-space: nowrap; }
 
+/* ---------- media ---------- */
+
+.media-item {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  padding-block: 1.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--water) 30%, transparent);
+}
+.media-item:last-child { border-bottom: 1px solid color-mix(in srgb, var(--water) 30%, transparent); }
+
+.media-item__when {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-variant-numeric: lining-nums tabular-nums;
+  color: var(--water);
+  padding-top: 0.2rem;
+  white-space: nowrap;
+}
+
+.media-item__outlet {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 0.25rem;
+}
+
+.media-item__title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration-color: transparent;
+}
+.media-item__title:hover { text-decoration-color: currentColor; }
+
+.media-item__note {
+  margin-top: 0.3rem;
+  max-width: 38em;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
 /* ---------- experience ---------- */
 
 .timeline { display: grid; gap: 2rem; }
@@ -534,9 +578,12 @@ i, em { font-style: italic; }
   .section__grid { grid-template-columns: minmax(0, 1fr); }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
   .site-header__name { display: none; }
   .site-header__inner { justify-content: flex-start; }
+}
+
+@media (max-width: 720px) {
   .site-nav { gap: 1.25rem; font-size: 0.875rem; }
 
   .about { grid-template-columns: minmax(0, 1fr); }
@@ -544,6 +591,7 @@ i, em { font-style: italic; }
   .about__side .portrait { width: 6rem; grid-row: span 4; margin-bottom: 0; }
 
   .pub-year { grid-template-columns: minmax(0, 1fr); gap: 0.75rem; }
+  .media-item { grid-template-columns: minmax(0, 1fr); gap: 0.3rem; }
   .role { grid-template-columns: minmax(0, 1fr); gap: 0.3rem; }
   .role__when { padding-top: 0; }
 
@@ -551,7 +599,17 @@ i, em { font-style: italic; }
   .intro { padding-top: 1.5rem; }
 }
 
+/* Phones: drop the CV link (the CV button is right below in the intro)
+   and spread the section links across the full width. */
+@media (max-width: 480px) {
+  .site-nav { flex: 1; justify-content: space-between; gap: 0.75rem; }
+  .site-nav__cv { display: none; }
+}
+
 @media (max-width: 380px) {
-  .site-nav { gap: 0.9rem; font-size: 0.8125rem; }
-  .site-nav__cv { display: none; }   /* the CV button is right below in the intro */
+  .site-nav { gap: 0.5rem; font-size: 0.8125rem; }
+}
+
+@media (max-width: 340px) {
+  .site-nav { font-size: 0.75rem; }
 }

@@ -8,7 +8,7 @@ It's plain HTML and CSS. There's nothing to install or build. Edit a file, push 
 
 | File | What it holds |
 | --- | --- |
-| `index.html` | All the page content: intro, About, Research, Publications, Experience, Contact |
+| `index.html` | All the page content: intro, About, Research, Publications, Media, Experience, Contact |
 | `assets/css/style.css` | Colours, fonts and layout. The colours are at the top under `:root` |
 | `assets/img/` | Photos: `wreck-*.webp` (the opening image), `portrait.jpg`, `og-image.jpg` (the preview shown when the link is shared) |
 | `resume.pdf` | The CV behind the "Download CV" button. Replace this file to update it, and keep the same name |
@@ -18,7 +18,9 @@ It's plain HTML and CSS. There's nothing to install or build. Edit a file, push 
 
 Open `index.html` in any text editor. RStudio, VS Code and TextEdit (in plain-text mode) all work.
 
-**Add a publication.** Search for `pub-year`. Copy a whole `<li class="pub"> … </li>` block, paste it at the top of the right year, and change the link, title, authors and journal. For a new year, copy a whole `<div class="pub-year"> … </div>` block. Put your own name in `<b> </b>` and species names in `<i> </i>`. Then update the count in the sentence above the list ("Twelve peer-reviewed articles…").
+**Add a publication.** Search for `pub-year`. Copy a whole `<li class="pub"> … </li>` block, paste it at the top of the right year, and change the link, title, authors and journal. For a new year, copy a whole `<div class="pub-year"> … </div>` block. Put your own name in `<b> </b>` and species names in `<i> </i>`.
+
+**Add a media link.** Search for `media-item`. Copy a whole `<li class="media-item"> … </li>` block, paste it at the top of the list (newest first), and change the date, outlet, link, headline and the one-line note.
 
 **Change your job or bio.** Edit the intro paragraph near the top, the About section and the first entry under Experience.
 
@@ -29,6 +31,15 @@ Open `index.html` in any text editor. RStudio, VS Code and TextEdit (in plain-te
 ## Preview before publishing
 
 Double-click `index.html` to open it in your browser. Refresh after each edit.
+
+**From RStudio:** open `CarolinaChongM.github.io.Rproj`, then run this in the Console:
+
+```r
+install.packages("servr")   # first time only
+servr::httw()               # opens a preview that reloads every time you save
+```
+
+Run `servr::daemon_stop()` when you're done. Nothing goes online until you push.
 
 ## Publish
 
